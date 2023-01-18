@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: limegreen;
+}
+.body1 {
+  display: flex;
+  justify-content: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  background-color: #4755;
+  background-image: radial-gradient(
+    rgba(245, 245, 245, 0.637),
+    rgba(3, 20, 78, 0.377)
+  );
+
+  border-radius: 2px;
+}
+/*TITLE*/
+/* BAŞLANĞIC */
+.title {
+  width: 100%;
+  font-size: 7px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  top: 0;
+  position: fixed;
+}
+
+.title1 {
+  margin: 2px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+
+  font-family: serif;
+  text-shadow: 5px 2px 2px rgba(29, 0, 133, 0.349);
+}
+
+#Capa_1 {
+  width: 50px;
+  height: 70px;
+}
+/*CONTAİNER*/
+
+.container {
+  margin: 1rem;
+  margin-top: 5rem;
+  background-color: rgba(105, 148, 148, 0.842);
+  display: flex;
+  flex-direction: column;
+  border: 0.2rem black solid;
+  width: 15rem;
+  font-weight: 500;
+  border-radius: 15px;
+  min-height: 30rem;
+  width: 16rem;
+  font-family: "Roboto Slab", serif;
+}
+.header1 {
+  padding: 0.2rem;
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px black;
+  background-color: rgba(38, 152, 187, 0);
+  border: 2px solid rgba(52, 22, 184, 0);
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0.1rem;
+}
+.sual {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.cavab {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+/*INPUTS*/
+input {
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  background: radial-gradient(
+    rgba(180, 131, 26, 0.685),
+    rgba(204, 218, 10, 0.712)
+  );
+  font-weight: 600;
+  height: 1.3rem;
+}
+
+/*BUTTONS*/
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 0.1rem;
+  margin-top: 1rem;
+}
+#run {
+  color: aliceblue;
+  margin: 0.2rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  width: 6rem;
+  height: 3rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: rgb(238, 255, 6);
+  background: radial-gradient(blue, rgb(27, 114, 121));
+}
+#clear {
+  color: rgb(238, 255, 6);
+  margin: 0.2rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+  width: 6rem;
+  height: 3rem;
+  cursor: pointer;
+  font-weight: 700;
+  background: radial-gradient(blue, rgb(27, 114, 121));
+}
+button:hover {
+  box-shadow: 0px 3px 3px black;
+}
+button:active {
+  transform: translateY(2px);
+}
+.footer1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 5px;
+}
