@@ -49,8 +49,10 @@ function calc() {
   ));
 
   let fmyb = MKK + us;
-  console.log(fmyb);
+
   document.getElementById("fmyb").value = fmyb;
+  console.log(us);
+  console.log(document.getElementById("fmyb").value);
   //evaluation of speed correction
   let VV1 = Math.round(
     eval(VV + Math.cos(toRad(document.getElementById("KB").value)) * UU)

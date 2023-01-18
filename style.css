@@ -153,3 +153,6 @@ button:active {
   justify-content: flex-end;
   font-size: 5px;
 }
+#KB{
+  display: none;
+}
