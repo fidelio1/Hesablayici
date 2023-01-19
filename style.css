@@ -15,7 +15,6 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  align-items: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #4755;
@@ -197,59 +196,6 @@ button:active {
   }
   .part2 {
     width: 50%;
-    font-size: 0.7rem;
-  }
-  .run {
-    color: aliceblue;
-    margin: 0.2rem;
-    padding: 0.1rem;
-    border-radius: 10px;
-    width: 6rem;
-    height: 2.5rem;
-    cursor: pointer;
-    font-weight: 700;
-    color: rgb(238, 255, 6);
-    background: radial-gradient(blue, rgb(27, 114, 121));
-  }
-  .clear {
-    color: rgb(238, 255, 6);
-    margin: 0.2rem;
-    padding: 0.1rem;
-    border-radius: 10px;
-    width: 6rem;
-    height: 2.5rem;
-    cursor: pointer;
-    font-weight: 700;
-    background: radial-gradient(blue, rgb(27, 114, 121));
-  }
-}
-@media only screen and (max-width: 768px) and (max-height: 1000px) {
-  .container {
-    margin: 1rem;
-    margin-top: 5rem;
-    background-color: rgba(105, 148, 148, 0.842);
-    display: flex;
-    flex-direction: column;
-    border: 0.2rem black solid;
-    font-weight: 500;
-    border-radius: 15px;
-    min-height: 30rem;
-    font-family: "Roboto Slab", serif;
-    width: 12rem;
-    font-size: 0.7rem;
-  }
-  .container2 {
-    margin: 1rem;
-    margin-top: 5rem;
-    margin-bottom: 20rem;
-    background-color: rgba(105, 148, 148, 0.842);
-    display: flex;
-    flex-direction: column;
-    border: 0.2rem black solid;
-    font-weight: 500;
-    border-radius: 15px;
-    font-family: "Roboto Slab", serif;
-    width: 9rem;
     font-size: 0.7rem;
   }
   .run {
