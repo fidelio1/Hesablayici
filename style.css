@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -91,7 +91,7 @@ header {
   margin-top: 0.5rem;
 }
 /* 2 CONTAINER PARTS */
-.container2{
+.container2 {
   margin: 1rem;
   margin-top: 5rem;
   margin-bottom: 20rem;
@@ -162,18 +162,18 @@ button:active {
   justify-content: flex-end;
   font-size: 5px;
 }
-#KB{
+#KB {
   display: none;
 }
 
 @media only screen and (max-width: 320px) and (min-height: 500px) {
-  .body1{
+  .body1 {
     margin-left: 1rem;
   }
   .container {
     width: 50%;
   }
-  .part2{
+  .part2 {
     width: 50%;
   }
   .run {
@@ -184,11 +184,10 @@ button:active {
     width: 6rem;
     height: 2.5rem;
   }
-  
 }
 
 @media only screen and (max-width: 400px) and (max-height: 900px) {
-  .body1{
+  .body1 {
     margin-left: 1rem;
   }
   .container {
@@ -196,7 +195,7 @@ button:active {
     width: 50%;
     font-size: 0.7rem;
   }
-  .part2{
+  .part2 {
     width: 50%;
     font-size: 0.7rem;
   }
@@ -223,10 +222,9 @@ button:active {
     font-weight: 700;
     background: radial-gradient(blue, rgb(27, 114, 121));
   }
-  
 }
 @media only screen and (max-width: 768px) and (max-height: 1000px) {
-.container {
+  .container {
     margin: 1rem;
     margin-top: 5rem;
     background-color: rgba(105, 148, 148, 0.842);
@@ -240,7 +238,7 @@ button:active {
     width: 12rem;
     font-size: 0.7rem;
   }
-  .container2{
+  .container2 {
     margin: 1rem;
     margin-top: 5rem;
     margin-bottom: 20rem;
@@ -278,4 +276,3 @@ button:active {
     background: radial-gradient(blue, rgb(27, 114, 121));
   }
 }
-
