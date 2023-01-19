@@ -33,11 +33,10 @@ function calc() {
 
   //Evaluation of wind angle
   if (psyNum < 180) {
-    let KB1 = eval((psyNum + 180) - MKK);
+    let KB1 = eval(psyNum + 180 - MKK);
     document.getElementById("KB").value = KB1;
-   
   } else if (psyNum > 180) {
-    let KB2 = eval((psyNum - 180) - MKK);
+    let KB2 = eval(psyNum - 180 - MKK);
     document.getElementById("KB").value = KB2;
   }
 
@@ -47,7 +46,8 @@ function calc() {
       ((UU * 60) / VV) * Math.sin(toRad(document.getElementById("KB").value))
     )
   ));
-
+  let mkHesab = MKK - us;
+  document.getElementById("mkHesab").value = mkHesab;
   let fmyb = MKK + us;
 
   document.getElementById("fmyb").value = fmyb;
@@ -57,7 +57,7 @@ function calc() {
   let VV1 = Math.round(
     eval(VV + Math.cos(toRad(document.getElementById("KB").value)) * UU)
   );
-  document.getElementById("V1").value = VV1; 
+  document.getElementById("V1").value = VV1;
 }
 
 run.addEventListener("click", (e) => {
@@ -67,5 +67,24 @@ let clear = document.getElementById("clear");
 clear.addEventListener("click", (event) => {
   console.log("clicked");
   document.getElementById("form1").reset();
+  console.clear();
+});
+
+let convertation = () => {
+  let mm = Number(document.getElementById("mm").value);
+  let mb = Number(document.getElementById("mb").value);
+  let run2 = document.getElementById("run2");
+  let clear2 = document.getElementById("clear2");
+  mm1 = Math.round(eval(mm * 1.33322));
+  mb1 = Math.round(eval(mb / 1.33322));
+  document.getElementById("mm").value = mb1;
+  document.getElementById("mb").value = mm1;
+
+};
+run2.addEventListener("click", (event) => {
+  convertation();
+});
+clear2.addEventListener("click", (event) => {
+  document.getElementById("form2").reset();
   console.clear();
 });
