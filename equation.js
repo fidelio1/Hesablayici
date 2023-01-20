@@ -83,8 +83,8 @@ let convertation = () => {
 run2.addEventListener("click", (event) => {
   convertation();
 });
-let clear2 = document.getElementById("clear2");
-clear2.addEventListener("click", (event) => {
+let clear22 = document.getElementById("clear2");
+clear22.addEventListener("click", (event) => {
   document.getElementById("form2").reset();
   console.clear();
 });
