@@ -74,7 +74,6 @@ let convertation = () => {
   let mm = Number(document.getElementById("mm").value);
   let mb = Number(document.getElementById("mb").value);
   let run2 = document.getElementById("run2");
-  let clear22 = document.getElementById("clear2");
   mm1 = Math.round(eval(mm * 1.33322));
   mb1 = Math.round(eval(mb / 1.33322));
   document.getElementById("mm").value = mb1;
@@ -84,7 +83,8 @@ let convertation = () => {
 run2.addEventListener("click", (event) => {
   convertation();
 });
-clear22.addEventListener("click", (event) => {
+let clear2 = document.getElementById("clear2");
+clear2.addEventListener("click", (event) => {
   document.getElementById("form2").reset();
   console.clear();
 });
