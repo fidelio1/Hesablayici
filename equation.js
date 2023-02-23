@@ -35,7 +35,7 @@ function calc() {
   if (psyNum < 180) {
     let KB1 = eval(psyNum + 180 - MKK);
     document.getElementById("KB").value = KB1;
-  } else if (psyNum > 180) {
+  } else if (psyNum >= 180) {
     let KB2 = eval(psyNum - 180 - MKK);
     document.getElementById("KB").value = KB2;
   }
